@@ -1,6 +1,30 @@
+/* color: https://www.color-hex.com/color-palette/91281 */
+
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
+  background-color: #cc11f0;
+}
+
+.glitch {
+  /* 画面中央に配置 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* 文字周り */
+  font-size: 5rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  /* ボタン周り */
+  border: none;
+  background-color: #ff008d;
+  box-shadow: 10px 10px 2px #6300ff;
+  border-radius: 5px;
 }
